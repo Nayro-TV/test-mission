@@ -1,0 +1,261 @@
+@media screen and (max-width: 1200px) {
+	.menu__inner {
+		flex-direction: column;
+	}
+	.menu__img {
+		justify-content: center;
+	}
+	.menu__title {
+		text-align: center;
+	}
+	.menu__info {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 994px) {
+	.services__title {
+		font-size: 30px;
+	}
+	.services__text {
+		width: 80%;
+	}
+	.custom-prev,
+	.custom-next {
+		top: 45%;
+	}
+	.bg__inner {
+		padding-top: 225px;
+	}
+	.bg__text {
+		text-align: center;
+	}
+	.bd__title {
+		text-align: center;
+		font-size: 60px;
+	}
+	.header__tel {
+		display: none;
+	}
+	.header__icon {
+		margin: 0;
+	}
+	.header__number {
+		position: fixed;
+		bottom: 20px;
+		right: 10px;
+		cursor: pointer;
+		background-color: #3a4574;
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 20;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.services {
+		padding: 120px 0;
+	}
+	.services__title {
+		font-size: 29px;
+	}
+	.burger__bg .open_nav,
+	.burger__bg.open_nav,
+	.burger__menu {
+		display: block;
+	}
+	.nav__close {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	/* Navigation */
+	.header__nav .header__list {
+		display: none;
+		transform: translate3d(350px, 0, 0);
+		transition: 0.3s;
+	}
+	.header__nav.open_nav .header__list {
+		overflow: auto;
+		display: block;
+		position: fixed;
+		width: 300px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #d3b47f;
+		background-image: linear-gradient(65deg, #61543e 12%, #d3b47f 99%);
+		z-index: 11000;
+		transform: translate3d(0, 0, 0);
+	}
+	.header__nav.open_nav .header__list .header__link {
+	}
+	.bbn {
+		border-bottom: none !important;
+	}
+	.header__nav.open_nav .header__list .header__item {
+		padding: 15px 30px;
+		border-bottom: 1px solid #ffffff3f;
+		width: 90%;
+	}
+	.header__nav.open_nav .nav__close {
+		width: 50px;
+		min-height: 50px;
+		cursor: pointer;
+		background-repeat: no-repeat;
+		background-position: center center;
+		border-radius: 50%;
+		margin-right: 15px;
+		margin-bottom: 7px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.services__img {
+		width: 70px;
+		margin: 0 auto;
+	}
+	.services__text {
+		line-height: 30px;
+		font-size: 15px;
+	}
+	.bd__flex {
+		padding-bottom: 11rem;
+	}
+	.btn {
+		padding: 32px 62px;
+	}
+	.header {
+		padding-top: 30px;
+	}
+	.bg__inner {
+		padding-top: 200px;
+	}
+	.bd__title {
+		line-height: 1.3;
+		font-size: 58px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.burger__body {
+		width: 50px;
+		min-height: 50px;
+	}
+	.header__nav.open_nav .header__list {
+		width: 200px;
+	}
+	.services__text {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.swiper-pagination {
+		position: static !important;
+	}
+	.swiper-pagination-bullet {
+		width: 10px !important;
+		height: 10px !important;
+		line-height: 20px !important;
+		font-size: 14px !important;
+		background-color: #d3b47f !important;
+	}
+	.custom-next,
+	.custom-prev {
+		display: none;
+	}
+	.menu__info {
+		flex-direction: column;
+	}
+	.menu__img-l {
+		margin-top: 70px;
+	}
+	.bd__flex {
+		flex-direction: column;
+	}
+	.btn {
+		margin-bottom: 30px;
+	}
+	.bd__title {
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 47px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.services__img {
+		
+	}
+	.services {
+		padding: 80px 0;
+	}
+	.services__comp {
+		font-size: 20px;
+	}
+	.services__title {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 27px;
+	}
+	.menu__absolute {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.menu__img-l,
+	.menu__img-r {
+		margin: 0 auto;
+	}
+	.menu__img-r {
+		margin-top: 30px;
+	}
+	.menu__img {
+		margin: 0;
+		flex-direction: column;
+	}
+	.header {
+		padding-top: 10px;
+	}
+	.header__logo {
+		width: 200px;
+	}
+	.btn {
+		padding: 26px 56px;
+	}
+	.bg__inner {
+		padding-top: 200px;
+	}
+	.bd__title {
+		font-size: 36px;
+	}
+	.bg__text {
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	.services__title {
+		font-size: 25px;
+	}
+	.menu__img img {
+		width: 220px;
+	}
+	.menu__absolute {
+		display: none;
+	}
+	.bd__title {
+		font-size: 31px;
+	}
+	.bg__inner {
+		padding-top: 150px;
+	}
+	.btn {
+		padding: 22px 56px;
+	}
+	.bd__flex {
+		padding-bottom: 7rem;
+	}
+}
